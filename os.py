@@ -12,3 +12,5 @@ for contador, arq in enumerate(os.listdir()):
 
         nome_novo = f'{nome_arq}{exten_arq}'
         os.rename(arq, nome_novo)
+
+print(f'\nArquivos renomeados.')
